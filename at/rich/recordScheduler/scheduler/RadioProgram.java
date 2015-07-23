@@ -32,7 +32,7 @@ public class RadioProgram{
 		URLConnection conn = null;
 		StringBuffer sb = new StringBuffer(200);
 		try {
-			url = new URL("http://radio.oeh.jku.at/service/getProgramEntry.php?date="+date+"&time="+time);
+			url = new URL("http://campusradio.bplaced.net/jku/scripts/SchedulerGetProgramEntry.php?date="+date+"&time="+time);
 
 			conn = url.openConnection();
 			InputStream in = conn.getInputStream();
@@ -58,7 +58,7 @@ public class RadioProgram{
 		StringBuffer sb = new StringBuffer(10000);
 		
 		try {
-			url = new URL("http://radio.oeh.jku.at/service/getProgram.php?date1="+date1+"&date2="+date2);
+			url = new URL("http://campusradio.bplaced.net/jku/scripts/SchedulerGetProgram.php?date1="+date1+"&date2="+date2);
 
 			conn = url.openConnection();
 			InputStream in = conn.getInputStream();

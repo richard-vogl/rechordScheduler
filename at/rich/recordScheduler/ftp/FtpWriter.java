@@ -20,10 +20,10 @@ import cz.dhl.ui.CoConsole;
  *
  */
 public class FtpWriter {
-	static String SERVER = "radio.oeh.jku.at";
-	static String USR = "radio";
-	static String PSW = "krampusradio";
-	static String PATH = "sendungen/";
+	static String SERVER = "campusradio.bplaced.net";
+	static String USR = "campusradio";
+	static String PSW = "ServiceMVM01";
+	static String PATH = "jku/podcasts/";
 	static CoConsole CONSOLE = null;
 	static int PORT = Ftp.PORT;
 	
@@ -57,8 +57,7 @@ public class FtpWriter {
 		try {
 			ftp.connect(SERVER, PORT);
 			ftp.login(USR, PSW);
-			
-			CoFile target = new FtpFile(FtpWriter.PATH+name,ftp); 
+			CoFile target = new FtpFile(FtpWriter.PATH+name +"/" + name,ftp); 
 			CoFile source = new LocalFile(localpath+name);
 			CoLoad.copy(target, source);
 		} catch (IOException e) {
