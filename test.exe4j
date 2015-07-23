@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="3.1.2">
+  <directoryPresets config="C:/Programme/eclipse/workspace/RichRecordScheduler" />
+  <application name="RecordScheduler" distributionSourceDir="C:/Programme/eclipse/workspace/RichRecordScheduler" />
+  <executable name="RecordScheduler" type="1" iconSet="false" iconFile="" executableDir="" redirectStderr="true" stderrFile="error.log" redirectStdout="false" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="">
+    <messageSet language="English" />
+    <versionInfo include="false" fileVersion="" companyName="" fileDescription="" legalCopyright="" productVersion="" internalName="" />
+  </executable>
+  <splashScreen show="false" autoOff="true" alwaysOnTop="true" width="0" height="0" bitmapFile="">
+    <text>
+      <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+      <versionLine x="20" y="40" text="version %VERSION%" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+    </text>
+  </splashScreen>
+  <java mainClass="at.rich.recordScheduler.RecordSchedulerApp" vmParameters="" arguments="" allowVMPassthroughParameters="true" minVersion="1.4" maxVersion="" preferredVM="" allowBetaVM="false" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="../recSched.jar" failOnError="false" />
+      <archive location="./tritonus_mp3.jar" failOnError="false" />
+      <archive location="./tritonus_share.jar" failOnError="false" />
+      <archive location="./jvftplib.jar" failOnError="false" />
+      <archive location="./javalayer.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+</exe4j>
+

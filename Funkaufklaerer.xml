@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd">
+    <channel>
+        <title>Funkaufklärer</title>
+        <link>http://kultur.jku.oeh.at</link>
+        <description>Zum perfekten Start in die Woche läuft jeden Montag
+            von 20.30 bis 22.00 Uhr die Sendung der Funkaufklärer. Alex,
+            Alti, Roman und Seppi präsentieren Neuvorstellungen und
+            Klassiker aus der Rock- und Alternativeszene. Ebenso im
+            Programm, weitere Informationen zu Events im Posthof und
+            Konzerten. Die ideale Sendung nach einem
+            &quot;intensiven&quot; Wochenende ;-) </description>
+        <language>de-at</language>
+        <generator>CampusRadio Linz</generator>
+        <copyright>2007 by Oeh Linz</copyright>
+        <webMaster>kultur@oeh.jku.at</webMaster>
+        <lastBuildDate>Tue, 16 Oct 2007 14:46:52</lastBuildDate>
+        <image>
+            <url>http://radio.oeh.jku.at/sendungen/funkaufklaerer.jpg</url>
+            <title>Das Funkaufklärer Team</title>
+            <link>http://kultur.jku.oeh.at</link>
+        </image>
+        <item>
+            <title>Title</title>
+            <description>Description</description>
+            <itunes:image>http://url-to-image.jpg</itunes:image>
+            <itunes:author>Author</itunes:author>
+            <itunes:subtitle>Subtitle</itunes:subtitle>
+            <itunes:summary>Summary</itunes:summary>
+            <enclosure length="2:00:00" type="audio/mpeg" url="http://radio.oeh.jku.at/sendungen/te s t.mp3"/>
+            <guid
+                isPermaLink="true">http://radio.oeh.jku.at/sendungen/te
+                s t.mp3</guid>
+            <itunes:duration>102340</itunes:duration>
+            <itunes:keywords>Campusradio, other keywords</itunes:keywords>
+            <itunes:category text="Radio Broadcast"/>
+            <pubDate>29.01.2007</pubDate>
+        </item>
+    </channel>
+</rss>

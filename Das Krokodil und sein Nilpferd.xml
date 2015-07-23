@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd" version="2.0">
+<channel>
+<title>Das Krokodil und sein Nilpferd</title>
+<link>http://kultur.jku.oeh.at</link>
+<description>... begeben sich wöchentlich mit ihrem Musik-Atlas auf eine musikalische Weltreise. Jede Woche bildet eine andere Nation unserer großen weiten Welt mit ihrer Kultur, ihren Gegebenheiten und natürlich ihrer Musik den Schwerpunkt unserer Sendung. Des Weiteren beschäftigt uns das Phänomen, dass längst vergessene Lieder plötzlich wieder in überarbeiteter Form in unseren Hitparaden auftauchen. In der Rubrik Cover vs. Original wird über diese Form des Recycling philosophiert und natürlich gibt’s wöchentlich einen entsprechenden Track dazu. Last but not least haben wir noch das One-Hit-Wonder der Woche für euch. Solche Dinger gibt’s auch mehr als genug, um ein Semester lang wöchentlich ein entsprechendes Stück auszugraben. Damit das Ganze für uns etwas entspannter wird, werden wir schließlich jede Woche live im Studio jeweils ein Biervariation aus dem hochgeschätzten LUI verkosten, um am Ende des Semesters unser Beer of the year küren.
+
+Neugierig geworden? Reinhören lohnt sich!
+</description>
+<language>de-at</language>
+<generator>CampusRadio Linz</generator>
+<copyright>2007 by Oeh Linz</copyright>
+<webMaster>kultur@oeh.jku.at</webMaster>
+<lastBuildDate>Tue, 16 Oct 2007 14:53:01</lastBuildDate>
+<image>
+<url>http://radio.oeh.jku.at/sendungen/Das Krokodil und sein Nilpferd.jpg</url>
+<title>Das Krokodil und sein Nilpferd</title>
+<link>http://kultur.jku.oeh.at</link>
+</image>
+<item>
+<title>Tite der Datei angeben</title>
+<description>Eine kleine Zusammenfassung der Sendung</description>
+<itunes:image>Wenn Sie ein Bild von Ihnen zeigen möchten oder Sonstiges, dann hier den Link eingeben</itunes:image>
+<itunes:author>Ihr Name</itunes:author>
+<itunes:subtitel>Tite der Datei angeben</itunes:subtitel>
+<itunes:summary>Eine kleine Zusammenfassung der Sendung</itunes:summary>
+<enclosure url="Link zu einem Mediendatein z.B. http://www.amsoftwares.com/Music/Beispiel.mp3" length="Nur Zahlen erlaubt" type="audio/mpeg"></enclosure>
+<guid isPermaLink="true">Link zu einem Mediendatein z.B. http://www.amsoftwares.com/Music/Beispiel.mp3</guid>
+<itunes:duration>04:58</itunes:duration>
+<itunes:keywords>Stichwörter, die auch in der Datei vorkommen</itunes:keywords>
+<itunes:category text="Unter welche Kategorie fällt dieser News"/>
+<pubDate>Klicken Sie auf den Button rechts!</pubDate>
+</item>
+</channel>
+</rss>
